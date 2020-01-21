@@ -2,11 +2,11 @@ const rootEl = document.getElementById('root')
 
 rootEl.innerHTML = `
 <form data-id="purchase-add-form">
-<label for="purchase-input-amount">Summa</label>
+<label for="purchase-input-amount">Сумма</label>
 <input id="purchase-input-amount" data-id="purchase-input-amount">
-<label for="purchase-input-category">Category</label>
+<label for="purchase-input-category">Категория</label>
 <input id="purchase-input-category" data-id="purchase-input-category">
-<button data-action="purchase-add">Dobavit</button>
+<button data-action="purchase-add">Добавить</button>
 </form>
 <div data-id="purchases-total">0</div>
 `
